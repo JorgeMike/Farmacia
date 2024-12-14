@@ -1,0 +1,38 @@
+@import 'node_modules/bootstrap/scss/functions';
+
+$primary: #0aad0a;
+$secondary: #25b625;
+$success: #198754;
+$light: #e4f6e4;
+
+@import 'node_modules/bootstrap/scss/variables';
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+.hero-image-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background: radial-gradient(circle, $primary, $success);
+    filter: blur(100px);
+    z-index: -1;
+}
+
+img.position-relative {
+    z-index: 2; /* Asegura que la imagen esté al frente */
+}
+
+.offcanvas-body .navbar-nav .btn {
+    width: 100%;
+    @include media-breakpoint-up(md) {
+        width: auto;
+    }
+}
+
+.pointer {
+    cursor: pointer;
+}
