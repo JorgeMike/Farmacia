@@ -9,8 +9,8 @@ export default function Header() {
                     <div className='d-flex justify-content-between align-items-center'>
                         <div className=''>
                             <div className='fw-bold fs-3'>
-                                <i className='bi bi-shop text-primary me-3'></i>
-                                Farmacia
+                                <i className='bi bi-shop-window text-primary me-3'></i>
+                                GioFarma
                             </div>
                         </div>
 

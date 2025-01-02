@@ -20,7 +20,7 @@ export default function Carousel() {
     };
 
     return (
-        <div className='row align-items-center mb-5'>
+        <div className='row align-items-center'>
             <div className='col-lg-3'>
                 <div>
                     <h2>Our Best Sellers</h2>

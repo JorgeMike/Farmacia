@@ -19,8 +19,8 @@ export default function Hero() {
             {/* Texto */}
             <div className='col-md-6 text-center text-md-start'>
                 <h1 className='display-4 fw-bold mb-4'>
-                    Bienvenido a tu centro de salud{' '}
-                    <span className='text-primary'>MediCare</span>
+                    Welcome to your health center{' '}
+                    <span className='text-primary'>GioFarma</span>
                 </h1>
                 <p className='lead text-muted mb-4'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -29,7 +29,7 @@ export default function Hero() {
                 </p>
                 <a
                     href='#services'
-                    className='btn btn-primary btn-lg text-white'
+                    className='btn btn-primary btn-lg fw-semibold'
                 >
                     Ver servicios
                 </a>

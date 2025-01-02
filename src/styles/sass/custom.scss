@@ -7,6 +7,15 @@ $light: #e4f6e4;
 
 @import 'node_modules/bootstrap/scss/variables';
 
+$theme-colors: map-merge(
+    $theme-colors,
+    (
+        'gray': $gray-200,
+    )
+);
+
+$card-border-color: $gray-300;
+
 @import 'node_modules/bootstrap/scss/bootstrap';
 
 .hero-image-background {
@@ -35,4 +44,25 @@ img.position-relative {
 
 .pointer {
     cursor: pointer;
+}
+
+.product-card{
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    &:hover {
+        box-shadow: 0 .5rem 1rem rgba($primary, .15);
+    }
+}
+
+.btn-primary {
+    color: #ffff;
+
+    &:hover {
+        color: #ffff;
+    }
+
+    &:active {
+        color: #f0f0f0 !important;
+    }
+    
 }

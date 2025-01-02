@@ -15,7 +15,7 @@ export default function Navbar() {
                             className='offcanvas-title'
                             id='offcanvasExampleLabel'
                         >
-                            MediCare
+                            GioFarma
                         </h5>
                         <button
                             type='button'
